@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Registro de Crias</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="usuario">User</string>
+    <string name="home">Inicio</string>
+    <string name="clave">Password</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registro">Registro</string>
+    <string name="registrar">Registrar crias</string>
+    <string name="peso">Introduzca peso</string>
+    <string name="edad">Introduzca edad</string>
+    <string name="id">Introduzca ID</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="seleccionarProv">Seleccionar proveedor</string>
+
+
+</resources>
