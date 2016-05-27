@@ -1,5 +1,6 @@
 package com.example.powerhost.clemente;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -30,20 +31,23 @@ public class RegistrarActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar);
 
+        BdSQLiteHelper helper = new BdSQLiteHelper(this);
+        SQLiteDatabase db=helper.getWritableDatabase();
+
         ArrayAdapter<String> adaptadorRaza = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, raza);
         cmbOpcionesRaza = (Spinner)findViewById(R.id.spinner_raza);
         adaptadorRaza.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         cmbOpcionesRaza.setAdapter(adaptadorRaza);
 
         ArrayAdapter<String> adaptadorMusculo = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, musculo);
-        cmbOpcionesRaza = (Spinner)findViewById(R.id.spinner_musculo);
+        cmbOpcionesMusculo = (Spinner)findViewById(R.id.spinner_musculo);
         adaptadorMusculo.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        cmbOpcionesRaza.setAdapter(adaptadorMusculo);
+        cmbOpcionesMusculo.setAdapter(adaptadorMusculo);
 
         ArrayAdapter<String> adaptadorGrasa = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, grasa);
-        cmbOpcionesRaza = (Spinner)findViewById(R.id.spinner_grasa);
+        cmbOpcionesGrasa = (Spinner)findViewById(R.id.spinner_grasa);
         adaptadorGrasa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        cmbOpcionesRaza.setAdapter(adaptadorGrasa);
+        cmbOpcionesGrasa.setAdapter(adaptadorGrasa);
 
 
          Button RegistraCria = (Button) findViewById(R.id.RegistraCria);
