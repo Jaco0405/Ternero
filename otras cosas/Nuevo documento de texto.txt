@@ -1,1 +1,2 @@
 http://www.javaya.com.ar/androidya/detalleconcepto.php?codigo=145&inicio=
+http://www.sgoliver.net/blog/bases-de-datos-en-android-i-primeros-pasos/
