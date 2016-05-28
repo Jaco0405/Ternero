@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         final EditText editText_usuario = (EditText) findViewById(R.id.editText_usuarioRegistro);
         final EditText editText_clave = (EditText) findViewById(R.id.editText_claveRegistro);
 

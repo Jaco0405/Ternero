@@ -13,6 +13,15 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+       // DataBaseManager manager= new DataBaseManager(this);
+       // manager.insertar2(678,45,76,"rojo","amarillo","pinta",2);
+        //manager.insertar2(656,47,89,"rojo","amarillo","pinta",2);
+        //manager.insertar2(667,40,84,"rojo","amarillo","dalmata",1);
+        //manager.insertar2(698,43,79,"rojo","amarillo","dalmata",1);
+        //DataBaseManagerCorrales managerCorrales= new DataBaseManagerCorrales(this);
+        //managerCorrales.insertar2("vacasLocas",250);
+
+
         Button RegistrarCria = (Button) findViewById(R.id.RegistrarCria);
 
 

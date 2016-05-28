@@ -17,6 +17,7 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
         android:paddingTop="40dp"
         android:paddingBottom="40dp"
         android:paddingRight="50dp"
